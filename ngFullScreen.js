@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('lotteriesApp')
+angular.module('myApp')
   .directive('ngFullScreen', function ($timeout, $window, preferences) {
     var win = $($window),
         isChrome = /chrome/.test(preferences.userAgent),
